@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* 1. don't modify this style */
 * {
   padding: 0;
@@ -10,6 +11,13 @@
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
   --black-700: #000;
+  --black:rgb(7,7,7);
+  --orange:rgb(250, 131, 5);
+  --white:white;
+  --primary:rgb(81, 65, 170);
+  --few:rgb(59, 42, 159);
+  --purple:rgb(44,18,37);
+
 }
 /* 3. and we use it like this */
 .elementOne {
@@ -18,3 +26,425 @@
 }
 
 /* good luck */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+  
+}
+
+.org{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    width: 90%;
+
+}
+.box{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: var(--white);
+}
+.navabar ul{
+    display: flex;
+    gap: 90px;
+}
+.navabar a{
+    text-decoration: none;
+    color: var(--white);
+    list-style-type:none ;
+}
+.navabar a:hover{
+    color: var(--black);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    margin-top: 100px;
+    
+}
+.box1{
+    color: var(--white);
+
+}
+
+.dot{
+    margin-top: 14px;
+    font-size: 20px;
+}
+.main h3{
+    color: var(--orange);
+font-size: 20px;
+}
+.dot1{
+    margin-top: 20px;
+}
+.dot2{
+    color: var(--white);
+    margin-top: 20px;
+}
+.dot3 a{
+    background-color:var(--primary) ;
+    color: var(--white);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.dot3{
+    margin-top: 32px;
+}
+.box2 img {
+    margin-top: -100px;    
+    /* float:inline-start; */
+}
+#s1{
+    position: absolute;
+    bottom:450px;
+}
+#s2{
+    position: absolute;
+    bottom:320px;
+right: 800px;
+}
+#s3{
+    position: absolute;
+    bottom: 450px;
+    left: 1100px;
+}
+.aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 87%;
+}
+.currently{
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    color: var(--white);
+    margin-top: 90px;
+}
+.seeall a{
+    text-decoration: none;
+    background-color: var(--primary);
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+    color: var(--white);
+}
+.itemBar{
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+}
+.itemBar{
+    text-align: center;
+}
+.lorem{
+    margin-top: 100px;
+text-align: center;
+}
+.menu{
+    color: var(--white);
+}
+.since{
+    margin-top: 80px;
+    margin-left: 21px;
+}
+   .spider img{
+    height: 500px;
+border-radius: 5px;   
+}
+   .spider{
+    margin-top: 50px;
+
+   }
+   .project{
+    margin-top: 100px;
+text-align: center;
+   }
+.boximg1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.imag img{
+    width: 100%;
+}
+.see{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.see a{
+    text-decoration: none;
+  background-color: var(--primary);
+width: 120px;
+padding-top: 10px;
+padding-bottom: 10px;
+color:var(--white);
+border-radius: 11px;
+text-align: center;
+}
+.hey{
+    margin-top: 100px;
+    margin-left: 16px;
+}
+.stay{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(7, 7,7);
+margin-top: 70px;
+border-radius: 15px;
+padding-bottom: 25px;
+padding-top: 25px;
+}
+.prg{
+    margin-left: 52px;
+}
+.input{
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.input input{
+    border: none;
+    outline: none;
+    padding-right: 135px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.input button{
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 21px;
+    padding-left: 21px;
+    border-radius: 7px;
+    position: absolute;
+    right: 180px;
+    top: 3140px;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    padding-bottom: 35px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.footer{
+    color: var(--white);
+}
+.boxx1{
+    margin-top: 65px;
+}
+.lin{
+    background-color: var(--black);
+}
+body{
+    background-color: var(--few);  
+}
+.boxx1 ul{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.boxx1 li{
+margin-top: 5px;
+}
+.boxx1 a{
+    color: var(--white);
+
+    text-decoration: none;
+}
+.boxx1 p{
+font-size: 16px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lentgh{
+    width: 90%;
+}
+.gif{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo11{
+    color: var(--white);
+}
+.navab ul{
+    display: flex;
+    gap: 90px;
+}
+.navab a{
+    text-decoration: none;
+    color: var(--white);
+    list-style-type:none ;
+}
+.navab a:hover{
+    color:var(--black);
+}
+.key{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between;
+    color: var(--white);
+}
+.gaming p{
+    font-size: 15px;
+}
+.gaming span{
+    color: var(--orange);
+}
+.dot3 a{
+    background-color: var(--orange);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gaming{
+margin-left: 120px;
+margin-top: 70px;
+
+}
+.asidee3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    width: 90%;
+}
+.menulorem{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+margin-left: 35px;
+margin-right: 35px;
+}
+.menul1{
+background-color: var(--black);
+border-radius: 15px;
+}
+.menul1 p{
+    font-size: 14px;
+    margin-top: 20px;
+text-align: center;
+}
+.menulorem a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--purple);
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 35px;
+}
+.a{
+    margin-top: 16px;
+}
+.menul2{
+    background-color: var(--black);
+
+}
+.menul3{    
+    border-radius: 15px;
+    background-color: var(--black);
+
+}
+.menul3 p{
+    font-size: 14px;
+    margin-top: 20px;
+text-align: center;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    height: 563px;
+
+}
+.slidebox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide p{
+    font-size: 15px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px; margin-left: 105px; margin-right: 105px;
+}
+
+.team p{
+    font-size: 19px;
+    font-weight: 600;
+}
+.team1 img{
+    width: 123px;
+}
+.team1{
+    background-color: var(--black);
+    padding: 30px 80px 30px 80px;
+    text-align: center;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputform{
+    width: 87%;
+}
+body{
+    background-color: var(--few);  
+    color: var(--white);
+}
+.input a{
+    text-decoration: none;
+    background-color: var(--orange);
+    color: var(--white);
+    position: absolute;
+    right: 200px;
+    top: 2312px;
+    padding: 4px 15px 5px 15px;
+    border-radius: 7px;
+}
+
